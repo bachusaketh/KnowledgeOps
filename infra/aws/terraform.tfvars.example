@@ -1,0 +1,7 @@
+# Do not put secret values here. Create them in AWS Secrets Manager and provide their ARNs.
+vpc_id                    = "vpc-0123456789abcdef0"
+public_subnet_ids         = ["subnet-0123456789abcdef0", "subnet-0123456789abcdef1"]
+openai_api_key_secret_arn = "arn:aws:secretsmanager:ap-south-1:123456789012:secret:knowledgeops/openai"
+qdrant_api_key_secret_arn = "arn:aws:secretsmanager:ap-south-1:123456789012:secret:knowledgeops/qdrant"
+qdrant_url                = "https://your-cluster.aws.cloud.qdrant.io"
+
