@@ -1,0 +1,2 @@
+"""KnowledgeOps Copilot application package."""
+
