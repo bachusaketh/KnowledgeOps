@@ -12,5 +12,5 @@
 | 8 | Docker | One-command API + vector DB local stack. |
 | 9 | AWS | Terraform provisions ECR, ECS/Fargate, ALB, logs, and secret injection. |
 
-Recommended sequence: run locally, replace the seed document with a domain you understand, add 20 evaluation cases, tune chunking/retrieval, then deploy. The best portfolio story is the measurable improvement you make on a real evaluation set—not the number of services involved.
+Recommended sequence: run locally, replace the seed document with a domain you understand, add 20 evaluation cases, tune chunking/retrieval, then deploy. The best portfolio story is the measurable improvement you make on a real evaluation set, not the number of services involved.
 
